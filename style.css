@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("asserts/fonts/TTLakesCondensed-Regular.eot");
+  src: local("fonts/"), local("fonts/"),
+    url("asserts/fonts/TTLakesCondensed-Regular.eot")
+      format("embedded-opentype"),
+    url("asserts/fonts/TTLakesCondensed-Regular.woff") format("woff"),
+    url("asserts/fonts/TTLakesCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes bold";
+  src: url("asserts/fonts/TTLakes-Bold.eot");
+  src: local("fonts/"), local("fonts/"),
+    url("asserts/fonts/TTLakes-Bold.eot") format("embedded-opentype"),
+    url("asserts/fonts/TTLakes-Bold.woff") format("woff"),
+    url("asserts/fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "TT Lakes bold";
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1c21;
+}
+
+.mobile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 1024px;
+  width: 320px;
+  color: #000;
+  box-shadow: 16px 0px 52px 0px #0e185033;
+}
+.logo {
+  display: flex;
+  padding: 24px;
+}
+.header__logo {
+  height: 51px;
+  padding-left: 16px;
+}
+.logo__search {
+  margin-left: auto;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  min-height: 705px;
+  padding-top: 24px;
+}
+.service__link {
+  padding: 16px 24px 16px 24px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.service__link:hover {
+  border-left: 4px solid #41f6d7;
+  opacity: 0.3;
+}
+.contact {
+  width: 196px;
+  min-height: 124px;
+  padding: 0 24px;
+}
+.contact__address {
+  padding: 16px 0;
+}
+.contact_phone {
+  font-size: 22px;
+  line-height: 32px;
+  padding-top: 10px;
+}
+.lang {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  color: #1b1c21;
+}
+.lang__type {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.lang__type:hover {
+  opacity: 0.3;
+}
