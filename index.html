@@ -8,12 +8,12 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="mobile">
-    <section class="logo">
+  <main class="menu">
+    <header class="logo">
       <button class="logo__back" type='button'><img src='asserts/images/back.svg' alt='кнопка назад'></button>
       <img class="header__logo" src="asserts/images/logo.svg" alt='кнопка меню'>
       <button class="logo__search" type='button'><img src="asserts/images/search.svg" alt="иконка поиска">
-    </section>
+    </header>
     <section class='service'>
       <a class='service__link' href=''>Ремонт техники</a>
       <a class='service__link' href=''>Услуги и сервисы</a>
@@ -24,19 +24,22 @@
       <a class='service__link' href=''>Наши сервисные центры</a>
       <a class='service__link' href=''>Контакты</a>
     </section>
+
     <section class="contact">
-      <button class="header__call" type='button'><img src="asserts/images/call.svg" alt="иконка телефона"></button>
-      <button class="header__chat" type='button'><img src="asserts/images/chat.svg" alt="иконка чата"></button>
-      <button class="header__profile" type='button'><img src="asserts/images/profile.svg" alt="иконка профиля"></button>
-      <ul class='contact__address'>
-        <li class='contact__email'>mail@cps.com</li>
-        <li class='contact_phone'>8 800 890 8900</li>
-      </ul>
+      <button class="header__call contact_padding" type='button'><img src="asserts/images/call.svg" alt="иконка телефона"></button>
+      <button class="header__chat contact_padding" type='button'><img src="asserts/images/chat.svg" alt="иконка чата"></button>
+      <button class="header__profile contact_padding" type='button'><img src="asserts/images/profile.svg" alt="иконка профиля"></button>
+
+      <a href="mailto:mail@cps.com" class="contact__email">mail@cps.com</a>
+      <a href="tel:+78008908900" class="contact_phone">8 800 890 8900</a>
+
       <ul class='lang'>
         <li><a class="lang__type" href=''>RU</a></li>
         <li><a class="lang__type" href=''>EN</a></li>
         <li><a class="lang__type" href=''>CH</a></li>
       </ul>
-    </nav>
+
+    </section>
+  </main>
 </body>
 </html>
